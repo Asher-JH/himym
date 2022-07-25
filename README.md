@@ -1,1 +1,1 @@
-# himym-docker
+# himym
