@@ -12,7 +12,9 @@
       "~routes/*": ["./routes/*"],
       "~utils/*": ["./utils/*"],
       "~models/*": ["./models/*"],
-      "~controllers/*": ["./controllers/*"]
+      "~controllers/*": ["./controllers/*"],
+      "~middlewares/*": ["./middlewares/*"],
+      "~configs/*": ["./configs/*"]
     }
   }
 }
