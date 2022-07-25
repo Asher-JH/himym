@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express, { Request, Response } from "express";
 
-import { castRouter } from "~routes/cast";
+import { usersRouter } from "~routes/users";
 import { errorHandler } from "~middlewares/error-handler";
 import { connectDB } from "~configs/db";
 
@@ -19,7 +19,7 @@ app.get("/", (_req: Request, res: Response) => {
 });
 
 // Routes
-app.use("/api/cast", castRouter);
+app.use("/api/users", usersRouter);
 
 app.use(errorHandler);
 
